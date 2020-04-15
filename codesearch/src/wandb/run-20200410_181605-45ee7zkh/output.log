@@ -1,0 +1,29 @@
+WARNING:tensorflow:From E:\Office\WFH\CSN\CodeSearchNet\src\models\model.py:149: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+Tokenizing and building vocabulary for code snippets and queries.  This step may take several hours.
+Traceback (most recent call last):
+  File "E:/Office/WFH/CSN/CodeSearchNet/src/train.py", line 188, in <module>
+    run_and_debug(lambda: run(args), args['--debug'])
+  File "E:\Install\Anaconda\lib\site-packages\dpu_utils\utils\debughelper.py", line 21, in run_and_debug
+    func()
+  File "E:/Office/WFH/CSN/CodeSearchNet/src/train.py", line 188, in <lambda>
+    run_and_debug(lambda: run(args), args['--debug'])
+  File "E:/Office/WFH/CSN/CodeSearchNet/src/train.py", line 174, in run
+    parallelize=not(arguments['--sequential']))
+  File "E:/Office/WFH/CSN/CodeSearchNet/src/train.py", line 69, in run_train
+    model.load_metadata(train_data_dirs, max_files_per_dir=max_files_per_dir, parallelize=parallelize)
+  File "E:\Office\WFH\CSN\CodeSearchNet\src\models\model.py", line 426, in load_metadata
+    finished_callback)
+  File "E:\Office\WFH\CSN\CodeSearchNet\src\utils\py_utils.py", line 53, in run_jobs_in_parallel
+    worker.start()
+  File "E:\Install\Anaconda\lib\multiprocessing\process.py", line 112, in start
+    self._popen = self._Popen(self)
+  File "E:\Install\Anaconda\lib\multiprocessing\context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "E:\Install\Anaconda\lib\multiprocessing\context.py", line 322, in _Popen
+    return Popen(process_obj)
+  File "E:\Install\Anaconda\lib\multiprocessing\popen_spawn_win32.py", line 65, in __init__
+    reduction.dump(process_obj, to_child)
+  File "E:\Install\Anaconda\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+AttributeError: Can't pickle local object 'Model.load_metadata.<locals>.metadata_parser_fn'

@@ -1,0 +1,27 @@
+{
+    "root": "E:/Office/WFH/CSN/CodeSearchNet",
+    "program": "E:/Office/WFH/CSN/CodeSearchNet/src/train.py",
+    "git": {
+        "remote": "https://github.com/othadem/CodeSearchNet.git",
+        "commit": "5599ac215c8280a02d11aaa9d30f006c79412741"
+    },
+    "email": "othadem@users.noreply.github.com",
+    "codePath": "src\\train.py",
+    "startedAt": "2020-04-10T18:16:05.525354",
+    "host": "LAPTOP-6T2TL37K",
+    "username": "torka_42yrqme",
+    "executable": "E:\\Install\\Anaconda\\python.exe",
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.1",
+    "gpu": "GeForce GTX 1050",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "args": [],
+    "state": "failed",
+    "jobType": null,
+    "mode": "dryrun",
+    "name": "neuralbowmodel-2020-04-10-23-46-05",
+    "project": "CodeSearchNet",
+    "heartbeatAt": "2020-04-10T18:16:14.453800",
+    "exitcode": 1
+}
